@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SCADA测试2</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user">帐号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">用户</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+    <!--<string name="error_invalid_email">This email address is invalid</string>-->
+    <string name="error_invalid_password">请输入密码</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_field_required">请输入帐号</string>
+    <string name="loge">长沙艾柏智能科技有限公司</string>
+
+    <string-array name="entries">
+        <item>牛排山风电场1</item>
+        <item>牛排山风电场2</item>
+        <item>牛排山风电场3</item>
+    </string-array>
+    <string-array name="entriesvalue">
+        <item>apple</item>
+        <item>banans</item>
+        <item>watermelon</item>
+    </string-array>
+    <string name="versionName">2.0</string>
+    <string name="versionCode">15</string>
+    <string name="defaultvalues">apple</string>
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

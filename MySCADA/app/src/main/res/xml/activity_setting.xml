@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="标题">
+
+    <PreferenceCategory
+        android:summary="分组1"
+        android:title="用户设置">
+        <ListPreference
+            android:defaultValue="@string/defaultvalues"
+            android:dialogTitle="对话框标题"
+            android:entries="@array/entries"
+            android:entryValues="@array/entriesvalue"
+            android:key="genercal"
+            android:summary="选择风电场"
+            android:title="切换"/>
+        <CheckBoxPreference
+            android:key="baojing1"
+            android:summaryOff="报警通知关闭"
+            android:summaryOn="报警通知开启"
+            android:title="报警通知开关">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:summary="分组2"
+        android:title="用户设置">
+        <SwitchPreference
+            android:key="baojing2"
+            android:summaryOff="已关闭报警通知"
+            android:summaryOn="已开启报警通知"
+            android:switchTextOff="关闭"
+            android:switchTextOn="开启"
+            android:title="报警通知">
+        </SwitchPreference>
+        <EditTextPreference
+            android:defaultValue="zhangsan"
+            android:dialogTitle="编辑姓名"
+            android:key="name"
+            android:summary="编辑您的姓名"
+            android:title="编辑">
+        </EditTextPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
